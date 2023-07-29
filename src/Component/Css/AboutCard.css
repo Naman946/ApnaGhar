@@ -1,0 +1,88 @@
+
+.about-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 45px;
+  }
+  .text-p{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  }
+  
+  .card-body {
+    width: 100%;
+    max-width: 350px;
+    height: 450px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 13px;
+  }
+  
+  .ab-img {
+    margin: -22% auto 0;
+    display: block;
+  }
+  
+  .ab-Head{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  /* or 160% */
+  
+  
+  color: #000000;
+  }
+  
+  .ab-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+  
+  }
+  
+  .ab-p1{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  /* or 188% */
+  
+  
+  
+  color: #101B49;
+  }
+  
+  /* ========how it work=== */
+  
+  .how-heading{
+    font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 35px;
+  }
+  .how-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    text-align: justify;
+  }
+  .services-message {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110.5%;
+  }

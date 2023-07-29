@@ -1,0 +1,63 @@
+/* Center the search bar */
+.search-bar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  /* Set a fixed height for the carousel */
+  .slide {
+    max-height: 500px; /* Adjust the height as desired */
+  }
+
+  /* Make the carousel images responsive and maintain aspect ratio */
+  .carousel-item img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+
+  .Banner1{
+    background-image: url(../Image/Banner.svg);
+  }
+
+  /* Adjust the search bar styling *//* Base styles for larger screens */
+.search-bar input[type="text"],
+.search-bar button {
+  padding: 10px;
+  font-size: 18px;
+}
+
+.s1 {
+  width: 400px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 30px;
+}
+
+.search-bar button {
+  background-color: #005555;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: #fff;
+  border-radius: 50px;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .s1 {
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .search-bar button {
+    margin-top: 10px;
+    width: 100%;
+    max-width: 200px;
+  }
+}

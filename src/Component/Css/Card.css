@@ -1,0 +1,70 @@
+/* Owl Carousel styles... */
+
+/* Popup Text styles... */
+
+/* Icon CSS */
+.item {
+  position: relative;
+  max-height: 70%;
+  max-width: 88%;
+  border: 3px solid whitesmoke;
+  background-color: rgb(233, 230, 230);
+  border-radius: 3%;
+}
+
+.img1 {
+  max-height: 300px;
+}
+
+.item i {
+  display: none;
+  font-size: 4rem;
+  color: #FFF;
+  opacity: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.item a {
+  display: block;
+  width: 100%;
+}
+
+.item a:hover:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.item a:hover i {
+  display: block;
+  z-index: 2;
+}
+
+/* Responsive adjustments for small screens */
+@media (max-width: 767px) {
+  .item {
+    max-width: 100%; /* Allow the card to take up the full width on small screens */
+    margin-bottom: 20px; /* Add some spacing between cards */
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto; /* Make the image responsive */
+  }
+  
+  .item i {
+    font-size: 3rem; /* Decrease the icon size on small screens */
+  }
+  
+  /* Adjust text alignment for small screens */
+  .card-footer {
+    text-align: center;
+  }
+}
